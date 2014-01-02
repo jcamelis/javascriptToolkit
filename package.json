@@ -1,0 +1,25 @@
+{
+  "name": "javascriptToolKit",
+  "version": "0.0.1",
+  "description": "javascriptToolkit =================",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jcamelis/javascriptToolkit.git"
+  },
+  "keywords": [
+    "javascript",
+    "toolkit"
+  ],
+  "author": "@jcamelis",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jcamelis/javascriptToolkit/issues"
+  }
+}

@@ -1,5 +1,3 @@
-/nbproject/private//nbproject/project.properties
-/nbproject/project.xml
-/nbproject/private/private.properties
-/nbproject/project.properties
-/nbproject/private/private.xml
+/nbproject/**
+/node_modules/**
+/dist/**

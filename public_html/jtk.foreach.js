@@ -5,6 +5,7 @@
  */
 (function (jtk) {
     var i;
+    var jtk = window.jtk || {};
     function apply (self, index, value, func) {
         return func.call(self, [index, value]);
     }
@@ -21,5 +22,5 @@
             }
         }
     }
-    
-}(window.jtk));
+    window.jtk = jtk;
+}());
