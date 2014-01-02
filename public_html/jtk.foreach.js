@@ -4,10 +4,11 @@
  * and open the template in the editor.
  */
 (function (jtk) {
-    var i;
-    var jtk = window.jtk || {};
-    function apply (self, index, value, func) {
-        return func.call(self, [index, value]);
+var jtk = window.jtk || {};
+var i;
+function apply (self, index, value, func) {
+    if (jtk.isFunction(func)) {
+        return func.call(self, index, value);
     }
     
     jtk.foreach = function (object, func) {
@@ -23,4 +24,4 @@
         }
     }
     window.jtk = jtk;
-}());
+}(window.jtk));

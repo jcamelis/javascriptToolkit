@@ -46,6 +46,9 @@
         },
         isFile: function (_file) {
             return isObjectType(_file, "File");
+        },
+        isPlainObject: function (_object) {
+            return isObjectType(_object, "Object");
         }
     };
 
