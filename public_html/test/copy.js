@@ -13,7 +13,7 @@ test("Copy 1", function () {
             foo1: "var1"
         },
         _date: (new Date())
-    }
+    };
 	
     var expected = {
         _string: "var1",
@@ -24,7 +24,7 @@ test("Copy 1", function () {
             foo1: "var1"
         },
         _date: (new Date())
-    }
+    };
     
     
     var actual = jtk.copy(origin);
@@ -47,7 +47,7 @@ test("Copy 2", function () {
         _object: {
             foo1: "var1"
         }
-    }
+    };
 	
     var expected = {
         _string: "var1",
@@ -57,7 +57,7 @@ test("Copy 2", function () {
         _object: {
             foo1: "var1"
         }
-    }
+    };
 
     var actual = jtk.copy(origin);
     

@@ -16,7 +16,7 @@ test("foreach with Object", function () {
         foo1: "var1",
         foo2: "var2",
         foo3: "var3",
-    }
+    };
     
     jtk.foreach(expected, function (index, value) {
         equal(expected[index], value, "Index " + index + " is Ok.");

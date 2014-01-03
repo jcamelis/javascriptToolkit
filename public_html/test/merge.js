@@ -10,12 +10,12 @@ test("Simple Merge", function () {
         _object: {
             foo1: "var1"
         }
-    }
+    };
 	
     var actual = {
         _string: "var1",
         _function: _function
-    }
+    };
     
     
     var expected = {
@@ -26,7 +26,7 @@ test("Simple Merge", function () {
         _object: {
             foo1: "var1"
         }
-    }
+    };
     
     actual = jtk.merge(origin, actual);
     
@@ -54,7 +54,7 @@ test("Merge and overide origin", function () {
         _object: {
             foo1: "var1"
         }
-    }
+    };
 	
     var actual = {
         _string: "var2",
@@ -64,7 +64,7 @@ test("Merge and overide origin", function () {
         _object: {
             foo1: "var2"
         }
-    }
+    };
     
     
     var expected = {
@@ -75,7 +75,7 @@ test("Merge and overide origin", function () {
         _object: {
             foo1: "var2"
         }
-    }
+    };
     
     actual = jtk.merge(origin, actual);
     
